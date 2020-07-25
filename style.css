@@ -91,6 +91,10 @@ body{
     border-bottom: 2px solid var(--bright-blue);
 }
 
+.resume .resume_item .resume_about .story:nth-child(even){
+    padding-top: 5px;
+}
+
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
     border-bottom: 0px;
