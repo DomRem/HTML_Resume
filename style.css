@@ -8,6 +8,7 @@
     --dark-night-blue: #192A38;
     --dark-blue: #145285;
     --medium-blue: #1C71B8;
+    --ocean-blue: #009fd9;
     --bright-blue: #8fd6f5;
     --very-bright-blue: #e7f6ff;
 }
@@ -82,12 +83,12 @@ body{
 }
 
 .resume .resume_left .regular {
-    color: #b1eaff;
+    color: var(--bright-blue);
 }
 
 .resume .resume_item {
     padding: 25px 0;
-    border-bottom: 2px solid #b1eaff;
+    border-bottom: 2px solid var(--bright-blue);
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -109,7 +110,7 @@ body{
     width: 35px;
     height: 35px;
     background: #fff;
-    color: #0bb5f4;
+    color: var(--ocean-blue);
     border-radius: 50%;
     margin-right: 15px;
     font-size: 16px;
@@ -125,7 +126,7 @@ body{
 }
 
 .resume .resume_left ul li .data {
-    color: #b1eaff;
+    color: var(--bright-blue);
 }
 
 .resume .resume_left ul li .data a {
@@ -136,7 +137,7 @@ body{
 .resume .resume_left .resume_skills ul li {
     display: flex;
     margin-bottom: 10px;
-    color: #b1eaff;
+    color: var(--bright-blue);
     justify-content: space-between;
     align-items: center;
 }
@@ -146,10 +147,10 @@ body{
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
-    width: 60%;
+    width: 40%;
     margin: 0 5px;
     height: 5px;
-    background: #009fd9;
+    background: var(--ocean-blue);
     position: relative;
 }
 
@@ -172,7 +173,7 @@ body{
 
 .resume .resume_right {
     width: 520px;
-    background: #ffffff;
+    background: #fff;
     color: var(--dark-blue);
     padding: 25px;
 }
@@ -214,7 +215,7 @@ body{
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    border: 2px solid #0bb5f4;
+    border: 2px solid var(--ocean-blue);
 }
 
 .resume .resume_right .resume_work ul li:after,
@@ -225,7 +226,7 @@ body{
     left: -21px;
     width: 2px;
     height: 115px;
-    background: #0bb5f4;
+    background: var(--ocean-blue);
 }
 
 .resume .resume_right .resume_hobby ul {
@@ -236,10 +237,10 @@ body{
 .resume .resume_right .resume_hobby ul li {
     width: 80px;
     height: 80px;
-    border: 2px solid #0bb5f4;
+    border: 2px solid var(--ocean-blue);
     border-radius: 50%;
     position: relative;
-    color: #0bb5f4;
+    color: var(--ocean-blue);
 }
 
 .resume .resume_right .resume_hobby ul li i {
@@ -253,7 +254,7 @@ body{
     right: -52px;
     width: 50px;
     height: 2px;
-    background: #0bb5f4;
+    background: var(--ocean-blue);
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
